@@ -145,7 +145,41 @@ nav {
 }
 
 
+.loading-img-container {
+    text-align: center;
+}
+.loading-img {
+    width: 400px;
+    height: 400px;
+}
+
+
 
 .App {
     font-family: sans-serif;
 }
+
+@media screen and (max-width: 500px) {
+
+    .pokedex-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 18px;
+        padding: 0px 10px 20px 10px;
+    }
+    .header {
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background:#db042b;
+        text-shadow: 2px 2px 3px black;
+        margin-bottom: 10px;
+        font-family: 'Press Start 2P';
+        font-size: 8px;
+    }
+}
+
+/* text-overflow */

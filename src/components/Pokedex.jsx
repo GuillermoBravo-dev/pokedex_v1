@@ -26,7 +26,9 @@ const Pokedex = (props) => {
             </div>
             {loading 
             ?
-            <div>Cargando...</div> 
+            <div className="loading-img-container">
+            <img src="https://www.bluechipexterminating.com/wp-content/uploads/2020/02/loading-gif-png-5.gif" alt="loading" className="loading-img"/>
+            </div>
             :
             <div className="pokedex-grid">
                 {pokemons.map((pokemon, index) => {

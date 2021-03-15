@@ -1,8 +1,6 @@
 import React from "react";
 
 const Pokemon = (props) => {
-  const redHeart = "❤️"
-  const blackHeart = "🖤"
   const { pokemon } = props;
   return (
     <div className="pokemon-card">
