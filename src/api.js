@@ -13,7 +13,7 @@ export const searchPokemon = async (pokemon) => {
 // limit = Cantidad de pokemones que queremos obtener de la API
 // offset = Cantidad de pokemones a partir del cual queremos empezar a buscar 
 // (si fuera offset=200 empezaría a buscar desde el pokemon número 200.)
-export const getPokemons = async (limit=25, offset=0) => {
+export const getPokemons = async (limit=15, offset=0) => {
     try {
         let url = `https://pokeapi.co/api/v2/pokemon?limit=${limit}&offset=${offset}`
         const response = await fetch(url)
