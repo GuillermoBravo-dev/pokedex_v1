@@ -23,7 +23,7 @@ nav {
     text-shadow: 2px 2px 3px black;
     margin-bottom: 10px;
     font-family: 'Press Start 2P';
-    font-size: 12px;
+    font-size: 10px;
 }
 .navbar-image {
     width: 160px
@@ -159,13 +159,28 @@ nav {
     font-family: sans-serif;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     .pokedex-grid {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 18px;
         padding: 0px 10px 20px 10px;
+    }
+    .pagination button {
+        background-color:#363636;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+        border:none;
+        width: 30px;
+        height: 30px;
+        box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.35);
+        transition: 1s;
+    }
+    .pagination div {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .header {
         color: white;
