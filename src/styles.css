@@ -67,8 +67,8 @@ nav {
 .pagination button {
     background-color:#363636;
     color: white;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     border:none;
     width: 30px;
     height: 30px;
@@ -178,10 +178,7 @@ nav {
         box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.35);
         transition: 1s;
     }
-    .pagination div {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+
     .header {
         color: white;
         display: flex;
@@ -194,6 +191,9 @@ nav {
         margin-bottom: 10px;
         font-family: 'Press Start 2P';
         font-size: 8px;
+    }
+    .header h1 {
+        font-size: 14px;
     }
 }
 

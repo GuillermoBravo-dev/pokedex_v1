@@ -11,7 +11,7 @@ const Pagination = (props) => {
             <button onClick={onLeftClick}>
                 <div>{left}</div>
             </button>
-            <div>{page} de {totalPages}</div>
+            <div>{page}/{totalPages}</div>
             <button onClick={onRightClick}>
                 <div>{right}</div>
             </button>
