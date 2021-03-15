@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
 
-  let imgUrl = "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png";
+  let imgUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1280px-International_Pok%C3%A9mon_logo.svg.png";
 
   return (
     <nav>

@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    /* font-family: 'Press Start 2P' */
 }
 
 nav {
@@ -12,12 +13,17 @@ nav {
 }
 
 .header {
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background:#db042b
+    background:#db042b;
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 10px;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
 }
 .navbar-image {
     width: 160px
@@ -37,10 +43,8 @@ nav {
 }
 .searchbar input {
     padding: 10px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.50);
-    border-radius: 3px;
-    border: none;
     width: 100%;
+    border: 2px solid black;
 }
 .searchbar input:focus {
     outline: none;
@@ -52,19 +56,37 @@ nav {
     height: 100%;
     color: white;
     padding: 12px 20px;
+    transition: 1s;
+}
+.searchbar-btn button:hover {
+    background-color: black
 }
 
 
 
 .pagination button {
+    background-color:#363636;
+    color: white;
     margin-left: 10px;
     margin-right: 10px;
+    border:none;
+    width: 30px;
+    height: 30px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.35);
+    transition: 1s;
+}
+.pagination button:hover {
+    background-color: black
 }
 
 .pokemon-card {
     display: flex;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.40);
     border-radius: 3px;
+    transition: 0.5s;
+}
+.pokemon-card:hover {
+    box-shadow: 0px 0px 20px black;
 }
 .pokemon-img-container {
     padding: 5px
@@ -79,6 +101,12 @@ nav {
 .pokemon-type-text {
     margin-right: 10px;
     text-transform: capitalize
+}
+.pokedex-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 18px;
+    padding: 0px 10px 20px 10px;
 }
 
 
